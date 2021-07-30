@@ -1,5 +1,4 @@
 import glob, os, time
-# from watchdog.observers import Observer
 
 def move():
 	for file in glob.glob('*.exe'):
@@ -98,4 +97,3 @@ if __name__ == '__main__':
 			time.sleep(10)
 	except KeyboardInterrupt:
 		pass
-
